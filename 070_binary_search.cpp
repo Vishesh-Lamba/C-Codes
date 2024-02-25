@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+
+//binary search
 int BinarySearch(int arr[],int n,int key){
     int start=0,end=n-1,mid;
     while(start<=end){
@@ -30,11 +32,14 @@ int main(){
         cin>>arr[i];
     }
 
+//which element you want to search
     int key;
     cout<<"enter the key";
     cin>>key;
 
+//calling the function
     cout<<"element found at index "<<BinarySearch(arr,n,key);
 
     return 0;
 }
+
