@@ -1,4 +1,4 @@
-    /*a number that equals the sum of its digits, each raised to a power. For example, if you have a number like 153, it's an Armstrong number because 1^3 + 5^3 + 3^3 equals 153.*/
+ /*a number that equals the sum of its digits, each raised to a power. For example, if you have a number like 153, it's an Armstrong number because 1^3 + 5^3 + 3^3 equals 153.*/
 
 #include<iostream>
 #include<cmath>
@@ -12,6 +12,7 @@ using namespace std;
         }
         return count;
     }
+    
     bool Armstrong(int num, int digit){
         int n=num, ans=0, rem;
         while(n){
@@ -24,10 +25,14 @@ using namespace std;
         else
         return 0;
     }
-int main(){
-    int num;
-    cin>>num;
 
-    int digit= countdigit(num);
-    cout<<Armstrong(num,digit)<<endl;
-}
+
+        int main(){
+            int num;
+            cin>>num;
+
+            int digit= countdigit(num);
+            cout<<Armstrong(num,digit)<<endl;
+        }
+
+
