@@ -48,7 +48,7 @@ int main(){
     vnew.push_back(19);
     vnew.push_back(190);
 
-    cout<<binary_search(vnew.begin(),vnew.end(),49);  //checking if 500 is present in the vector
+    cout<<binary_search(vnew.begin(),vnew.end(),700);  //checking if 700 is present in the vector
     cout<<endl;
     cout<<find(vnew.begin(),vnew.end(),19)-vnew.begin(); //finding the index of 19 in the vector
 

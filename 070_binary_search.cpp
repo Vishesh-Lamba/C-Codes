@@ -18,8 +18,6 @@ int BinarySearch(int arr[],int n,int key){
         }
     }
 }
-
-
 int main(){
     int n,i,j;
     cout<<"enter the size of array";
